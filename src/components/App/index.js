@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Container } from '@material-ui/core'
-import MyComponent from 'components/MyComponent'
+import Todos from 'components/Todos'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         alignItems='center'
         flexDirection='row'
       >
-        <MyComponent />
+        <Todos />
       </Box>
     </Container>
   );
